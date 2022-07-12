@@ -1,0 +1,89 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FAVICE HAIR</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>FAVICE HAIR </h1>
+      <h2 class="anthem">Where beauty meets Luxury....</h2>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="WEAVES" class="activate">
+      <div class="landing__container">
+        <h2>WEAVES</h2>
+        <div class="hair">
+          <div class="hair_pics"><a href="https://www.amazon.com"> <img  class="image" src="images/weave1.jpg"> </a></div>
+          <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image" src="images/weave 3.jpg"></a> </div>
+          <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image" src="images/weave2.jpg"> </a></div>
+        </div>
+        </div>
+    </section>
+    <section id="section2" data-nav="EXTENSIONS">
+      <div class="landing__container">
+        <h2>EXTENSIONS</h2>
+        <div class="hair"> 
+        <div class="hair_pics"><a href="https://www.amazon.com"> <img class="image" src="images/extension1.jpg"> </a></div>
+        <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image" src="images/extension2.jpg"></a> </div>
+        <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image" src="images/extension3.jpg"> </a></div>
+      </div>
+         </div>
+    </section>
+    <section id="section3" data-nav="WIGS">
+      <div class="landing__container">
+        <h2>WIGS</h2>
+        <div class="hair">
+          <div class="hair_pics"><a href="https://www.amazon.com"> <img  class="image" src="images/wig 1.jpg"> </a></div>
+          <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image"src="images/wig 2.jpg"></a> </div>
+          <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image" src="images/wig 4.jpg"> </a></div>
+        </div>
+      </div>
+    </section>
+    <section id="section4" data-nav="ACCESSORIES">
+      <div class="landing__container">
+        <h2>ACCESSORIES</h2>
+        <div class="hair">
+          <div class="hair_pics"><a href="https://www.amazon.com"> <img   class="image"src="images/accessories1.jpg"> </a></div>
+          <div class="hair_pics"> <a href="https://www.amazon.com"> <img  class="image" src="images/accessories3.jpg"></a> </div>
+          <div class="hair_pics"> <a href="https://www.amazon.com"> <img   class="image"src="images/accessories4.jpg"> </a></div>
+        </div>
+        </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy FaviceHair</p>
+        <p>Contact Us</p>
+    <div class="socials">
+       <div class="socials_ctn"> <a href="https://www.facebook.com"><img src="images/facebook-3-32.png" alt="Facebook"></a> </div>
+       <div class="socials_ctn"> <a href="https://www.twitter.com"><img src="images/twitter-32.png" alt="Twitter"></a> </div>
+       <div class="socials_ctn"> <a href="https://www.instagram.com"><img src="images/instagram-32.png" alt="Instagram"> </a></div>
+       <div class="socials_ctn"> <a href="https://www.youtube.com"><img src="images/youtube-4-32.png" alt="Youtube"></a> </div>
+    </div>
+    
+  </footer>
+
+   <!-- Link to app.js File -->
+
+   <script src="app.js"></script>
+
+</body>
+
+</html>
